@@ -16,7 +16,7 @@ async def home(slack_name: str = "olawuwo abideen", track: str = "backend"):
         "current_day": now.strftime("%A"),
         "utc_time": datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'),
         "track": track,
-        "github_file_url": "https://github.com/olawuwo-abideen/hng/blob/master/app.py",
+        "github_file_url": "https://github.com/olawuwo-abideen/hng/blob/main/main.py",
         "github_repo_url": GITHUB_REPO_URL,
         "status_code": 200,
     }
